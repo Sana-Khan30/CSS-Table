@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Document</title>
+    <!-- inline CSS -->
+    <style>
+        body {
+            background-image: url(./images\ \(2\).jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        table,
+        td {
+            background-color: black;
+            color: white;
+            border: 5px solid rgb(64, 64, 227);
+            text-align: center;
+            padding: 9px;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" style="box-shadow: 2px 2px 15px 5px rgb(199, 32, 177);">
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule</td>
+            <td rowspan="2">Topic</td>
+        </tr>
+        <tr>
+            <td>Begin</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m</td>
+            <td rowspan="2">5:00 p.m</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity DTD and RElax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m</td>
+            <td>11:00 a.m</td>
+            <td>Xpath</td>
+        </tr>
+        <tr>
+            <td>11: a.m</td>
+            <td>2:00 p.m</td>
+            <td rowspan="2">XSL Transformation</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m</td>
+            <td>5:00 p.m</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m</td>
+            <td>12:00 p.m</td>
+            <td>XSL Formatting</td>
+        </tr>
+    </table>
+</body>
+
+</html>
